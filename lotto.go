@@ -3,6 +3,7 @@ package gopkgdemo
 import (
 	"math/rand"
 	"time"
+	"fmt"
 )
 
 func init(){
@@ -21,3 +22,9 @@ func Lotto() [6]int {
 	}
 	return l
 } 
+
+func Ausgabe(a [6]int) {
+	for i, l := range a {
+		fmt.Printf("%d: %d\n", (i + 1), l)
+	}
+}
