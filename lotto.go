@@ -1,4 +1,4 @@
-package zufall
+package gopkgdemo
 
 import (
 	"math/rand"
